@@ -1,6 +1,6 @@
 {
-  "name": "node-red-mongo-storage-plugin",
-  "version": "0.1.2",
+  "name": "node-red-mongo-storage-plugin-with-sync",
+  "version": "1.0.0",
   "description": "Node Red Mongo Storage Plugin",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "adibenmati/node-red-mongo-storage-plugin.git"
+    "url": "Ahmad44452/node-red-mongo-storage-plugin-with-sync"
   },
   "keywords": [
     "node-red",
     "mongo"
   ],
-  "author": "Adi Ben Matitiau",
+  "author": "Ahmad Ghani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adibenmati/node-red-mongo-storage-plugin/issues"
+    "url": "https://github.com/Ahmad44452/node-red-mongo-storage-plugin-with-sync/issues"
   },
-  "homepage": "https://github.com/adibenmati/node-red-mongo-storage-plugin",
+  "homepage": "https://github.com/Ahmad44452/node-red-mongo-storage-plugin-with-sync",
   "dependencies": {
-    "mongodb": "^3.4.1",    
-    "when": "^3.7.3"
+    "mongodb": "^6.18.0"
   }
 }

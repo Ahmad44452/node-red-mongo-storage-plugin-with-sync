@@ -26,16 +26,17 @@ var settings = {
     // userDir:"/home/user",
     uiPort : 1880,
     uiHost: "localhost",
-    storageModule : require("node-red-mongo-storage-plugin"),
+    storageModule : require("node-red-mongo-storage-plugin-with-sync"),
     storageModuleOptions: {
         mongoUrl: 'mongodb://localhost:27017',
-        database: 'local',
+        database: 'nodered',
         collectionNames:{
             flows: "nodered-flows",
             credentials: "nodered-credentials",
             settings: "nodered-settings",
             sessions: "nodered-sessions"
-        }
+        },
+        adminApiUrl: "http://localhost:1880"
     }, 
     functionGlobalContext: { }    // enables global context
 };

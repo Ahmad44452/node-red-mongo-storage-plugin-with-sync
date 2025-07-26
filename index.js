@@ -19,7 +19,7 @@ var storageModule = {
             }
         }
                 
-        mongoHandler = new MongoHandler(settings.storageModuleOptions.mongoUrl, settings.storageModuleOptions.database);
+        mongoHandler = new MongoHandler(settings.storageModuleOptions.mongoUrl, settings.storageModuleOptions.database, settings.storageModuleOptions.adminApiUrl, this.collectionNames.flows);
         return mongoHandler.connect();
     },
 
